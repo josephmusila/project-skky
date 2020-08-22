@@ -1,0 +1,231 @@
+body{
+   background-image: url("header2.jpg");
+    width: 100%;
+    height: auto;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+#nav{
+    width: 100%;
+    position: fixed;
+    
+}
+#tog{
+    background-color: white;
+}
+
+.home{
+    padding: 100px;
+    
+    
+}
+.home h3{
+    font-size: 30px;
+    color: blue;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    .prog{
+        width: 100%;
+    }
+.home p{
+    border: 3px solid red;
+    width: 300px;
+    padding: 10px;
+    color: blue;
+    font-size: 20px;
+    float: left;
+}.home p:hover{
+    background-color: thistle;
+    color: black;
+}
+.home-photo{
+    width: 200px;
+    height: 200px;
+    float: right;
+   color: red;
+   font-size: 20px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+.home-photo:hover{
+    border: 3px solid blue;
+    text-align: center;
+    padding: 5px;
+    background: white;
+    cursor: pointer;
+}
+.light{
+    color: rgb(190, 17, 17);
+    height: 4px;
+    width: 100%;
+}
+#about{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    
+    color: white;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+#about1{
+background: honeydew;
+width: 100%;
+margin-top: 5px;
+padding-top: 20px;
+padding-bottom: 20px;
+color: blue;
+font-size: 20px;
+
+}
+#about2{
+    
+    width: 100%;
+    
+}
+.services a{
+    color: orange;
+    text-align: center;
+}
+.services li{
+    width: 19%;
+    
+}
+
+#results p{
+    color: darkred;
+}
+#fixtures p{
+    color: darkgreen;
+}
+#leagues p{
+    color: cyan;
+}
+#transfers p{
+    color: chartreuse;
+}
+#news p{
+    color: blue;
+}
+#comm{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-left: 5px;
+    border: 2px solid grey;
+    background-color: honeydew;
+}
+#comm h4{
+    color: orange;
+    font-size: 20px;
+       
+}
+#submit{
+    margin: auto;
+}
+form{
+    color: rgb(216, 24, 24);
+}
+#pundit{
+    margin-top: 10px;
+    width: 100%;
+}
+#pundit-photo p{
+    color:orangered;
+    font-size: 30px;
+}
+#pundit-photo{
+    width: 99%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    border: 2px double green;
+    text-align: center;
+    background: linear-gradient(wheat,rgb(243, 243, 233));
+}
+#logos{
+    border-top: 3px double red;
+    border-bottom: 3px double greenyellow;
+    background-color: lemonchiffon;
+  
+    
+}
+#logos img{
+    margin: 2px;
+    padding: 2px;
+}
+#logos img:hover{
+    background-color: seashell;
+    border: 1px solid red;
+   
+
+}
+#app{
+    
+    background-color: lightcyan;
+    color: brown;
+    width: 97%;
+}
+#app h3{
+    color: orange;
+    font-size: 30px;
+}
+#phone{
+    height: auto;
+    width: 97%;
+    background: papayawhip;
+    
+    
+}
+.download{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid orangered;
+    border-bottom: 1px solid orangered;
+    padding: 5px;
+    width: 97%;
+}
+#footer{
+    background: rgb(100, 92, 92);
+    color: white;
+}
+@keyframes scroll{
+    
+    to{width: 100%;}
+    to{border: 2px solid orangered;}
+}
+.container,
+#pundit-photo:mouseover{
+    animation-name: scroll;
+  
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+.programs li{
+    color: teal;
+    font-size: 20px;
+    background: wheat;
+    border-bottom: 1px solid orangered;
+    padding-inline-start: 4px;
+}
+#signin-dialogue{
+background-color: palegoldenrod;
+color: maroon;
+}
+#register{
+    background-color: mintcream;
+    color: orangered;
+    
+}
+#err2,err{
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+}
