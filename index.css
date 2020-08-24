@@ -1,5 +1,5 @@
 body{
-   background-image: url("header2.jpg");
+   background-color: papayawhip;
     width: 100%;
     height: auto;
     
@@ -75,7 +75,7 @@ body{
     margin-bottom: 50px;
 }
 #about1{
-background: honeydew;
+background: papayawhip;
 width: 100%;
 margin-top: 5px;
 padding-top: 20px;
@@ -120,6 +120,7 @@ font-size: 20px;
     margin-left: 5px;
     border: 2px solid grey;
     background-color: honeydew;
+    margin-bottom: 10px;
 }
 #comm h4{
     color: orange;
@@ -145,7 +146,7 @@ form{
     height: auto;
     padding: 10px;
     margin: 10px;
-    border: 2px double green;
+    
     text-align: center;
     background: linear-gradient(wheat,rgb(243, 243, 233));
 }
@@ -157,7 +158,7 @@ form{
     
 }
 #logos img{
-    margin: 2px;
+    margin: 0;
     padding: 2px;
 }
 #logos img:hover{
@@ -170,15 +171,20 @@ form{
     
     background-color: lightcyan;
     color: brown;
-    width: 97%;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
 }
 #app h3{
     color: orange;
     font-size: 30px;
+    text-align: center;
 }
 #phone{
+    margin-top: 10px;
+    margin-bottom: 10px;
     height: auto;
-    width: 97%;
+    width:100%;
     background: papayawhip;
     
     
@@ -189,7 +195,8 @@ form{
     margin-bottom: 10px;
     border-top: 1px solid orangered;
     border-bottom: 1px solid orangered;
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 97%;
 }
 #footer{
@@ -228,4 +235,7 @@ color: maroon;
     color: red;
     font-style: italic;
     text-decoration: underline;
+}
+.new{
+    background-color: orangered;
 }
